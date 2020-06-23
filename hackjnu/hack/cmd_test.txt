@@ -1,0 +1,125 @@
+
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Uma Kumari>cd /
+
+C:\>cd xampp>dir
+Access is denied.
+
+C:\>cd xampp
+
+C:\xampp>ls
+FileZillaFTP          filezilla_start.bat  mysql_start.bat  test_php.bat
+MercuryMail           filezilla_stop.bat   mysql_stop.bat   tmp
+anonymous             htdocs               passwords.txt    tomcat
+apache                img                  perl             uninstall.dat
+apache_start.bat      install              php              uninstall.exe
+apache_stop.bat       killprocess.bat      phpMyAdmin       webalizer
+catalina_service.bat  licenses             properties.ini   webdav
+catalina_start.bat    locale               readme_de.txt    xampp-control.exe
+catalina_stop.bat     mailoutput           readme_en.txt    xampp-control.ini
+cgi-bin               mailtodisk           sendmail         xampp-control.log
+contrib               mercury_start.bat    service.exe      xampp_shell.bat
+ctlscript.bat         mercury_stop.bat     setup_xampp.bat  xampp_start.exe
+filezilla_setup.bat   mysql                src              xampp_stop.exe
+
+C:\xampp>cd mysql
+
+C:\xampp\mysql>ls
+COPYING            THIRDPARTY  mysql_installservice.bat    share
+CREDITS            backup      mysql_uninstallservice.bat
+EXCEPTIONS-CLIENT  bin         resetroot.bat
+README.md          data        scripts
+
+C:\xampp\mysql>cd bin
+
+C:\xampp\mysql\bin>ls
+api-ms-win-core-console-l1-1-0.dll             aria_ftdump.exe
+api-ms-win-core-datetime-l1-1-0.dll            aria_pack.exe
+api-ms-win-core-debug-l1-1-0.dll               aria_read_log.exe
+api-ms-win-core-errorhandling-l1-1-0.dll       concrt140.dll
+api-ms-win-core-file-l1-1-0.dll                innochecksum.exe
+api-ms-win-core-file-l1-2-0.dll                mariabackup.exe
+api-ms-win-core-file-l2-1-0.dll                mbstream.exe
+api-ms-win-core-handle-l1-1-0.dll              msvcp140.dll
+api-ms-win-core-heap-l1-1-0.dll                my.ini
+api-ms-win-core-interlocked-l1-1-0.dll         my_print_defaults.exe
+api-ms-win-core-libraryloader-l1-1-0.dll       myisam_ftdump.exe
+api-ms-win-core-localization-l1-2-0.dll        myisamchk.exe
+api-ms-win-core-memory-l1-1-0.dll              myisamlog.exe
+api-ms-win-core-namedpipe-l1-1-0.dll           myisampack.exe
+api-ms-win-core-processenvironment-l1-1-0.dll  myrocks_hotbackup
+api-ms-win-core-processthreads-l1-1-0.dll      mysql.exe
+api-ms-win-core-processthreads-l1-1-1.dll      mysql_config.pl
+api-ms-win-core-profile-l1-1-0.dll             mysql_convert_table_format.pl
+api-ms-win-core-rtlsupport-l1-1-0.dll          mysql_install_db.exe
+api-ms-win-core-string-l1-1-0.dll              mysql_ldb.exe
+api-ms-win-core-synch-l1-1-0.dll               mysql_plugin.exe
+api-ms-win-core-synch-l1-2-0.dll               mysql_tzinfo_to_sql.exe
+api-ms-win-core-sysinfo-l1-1-0.dll             mysql_upgrade.exe
+api-ms-win-core-timezone-l1-1-0.dll            mysql_upgrade_service.exe
+api-ms-win-core-util-l1-1-0.dll                mysql_upgrade_wizard.exe
+api-ms-win-crt-conio-l1-1-0.dll                mysqladmin.exe
+api-ms-win-crt-convert-l1-1-0.dll              mysqlbinlog.exe
+api-ms-win-crt-environment-l1-1-0.dll          mysqlcheck.exe
+api-ms-win-crt-filesystem-l1-1-0.dll           mysqld.exe
+api-ms-win-crt-heap-l1-1-0.dll                 mysqld_multi.pl
+api-ms-win-crt-locale-l1-1-0.dll               mysqldump.exe
+api-ms-win-crt-math-l1-1-0.dll                 mysqldumpslow.pl
+api-ms-win-crt-multibyte-l1-1-0.dll            mysqlhotcopy.pl
+api-ms-win-crt-private-l1-1-0.dll              mysqlimport.exe
+api-ms-win-crt-process-l1-1-0.dll              mysqlshow.exe
+api-ms-win-crt-runtime-l1-1-0.dll              mysqlslap.exe
+api-ms-win-crt-stdio-l1-1-0.dll                perror.exe
+api-ms-win-crt-string-l1-1-0.dll               replace.exe
+api-ms-win-crt-time-l1-1-0.dll                 sst_dump.exe
+api-ms-win-crt-utility-l1-1-0.dll              ucrtbase.dll
+aria_chk.exe                                   vcruntime140.dll
+aria_dump_log.exe
+
+C:\xampp\mysql\bin>mysql -u root -p -h localhost
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 264
+Server version: 10.4.11-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| emp                |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.003 sec)
+
+MariaDB [(none)]> create database temp;
+Query OK, 1 row affected (0.063 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| emp                |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| temp               |
+| test               |
++--------------------+
+7 rows in set (0.001 sec)
+
+MariaDB [(none)]> use temp;
+Database changed
+MariaDB [temp]> show tables;
+Empty set (0.001 sec)
+
+MariaDB [temp]>

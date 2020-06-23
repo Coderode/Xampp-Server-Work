@@ -1,0 +1,31 @@
+you can run these files using php local server
+or 
+save them as .html file
+and run locally as you use to run html file
+because there is no php code in it.
+
+
+sites to create facbook and g+ and twitter buttons
+
+for facebook like button
+can be other buttons also like share and send etc.
+
+longin to facebook with your account also
+https://developers.facebook.com
+https://developers.facebook.com/docs/plugins/
+go to like button link and create that for your website
+
+for g+ button
+
+
+for twitter share button
+sign in also
+https://developer.twitter.com/en/docs
+https://developer.twitter.com/en/docs/twitter-for-websites/
+main page is :
+for button and timeline urls
+first login to twitter then go to 
+publish.twitter.com/
+then enter twitter profile account id   @sk9958814616 in the given area
+then use the embed timeline and button on the screen
+ 

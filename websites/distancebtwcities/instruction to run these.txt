@@ -1,0 +1,9 @@
+you can run these files using php local server
+or 
+save them as .html file
+and run locally as you use to run html file
+because there is no php code in it.
+
+
+need google map api key : with billed cloud account
+to use functionality of google map platform

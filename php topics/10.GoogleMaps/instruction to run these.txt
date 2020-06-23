@@ -1,0 +1,5 @@
+you can run these files using php local server
+or 
+save them as .html file
+and run locally as you use to run html file
+because there is no php code in it.

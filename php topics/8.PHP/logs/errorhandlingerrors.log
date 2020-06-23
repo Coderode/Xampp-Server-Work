@@ -1,0 +1,24 @@
+Error[512] on 20/12/2019 10:15:38
+Details: inexistingfile.txt does not exist and thus size cannot be retrieved!. 
+Location: In /home/swingoff/domains/swing.offyoucode.co.uk/public_html/php/28.errorhandling.php on line 45. 
+Variables: Array
+(
+    [file] => inexistingfile.txt
+)
+
+Error[512] on 20/12/2019 10:18:45
+Details: inexistingfile.txt does not exist and thus size cannot be retrieved!. 
+Location: In /home/swingoff/domains/swing.offyoucode.co.uk/public_html/php/28.errorhandling.php on line 45. 
+Variables: Array
+(
+    [file] => inexistingfile.txt
+)
+
+Error[512] on 20/12/2019 10:18:52
+Details: inexistingfile.txt does not exist and thus size cannot be retrieved!. 
+Location: In /home/swingoff/domains/swing.offyoucode.co.uk/public_html/php/28.errorhandling.php on line 45. 
+Variables: Array
+(
+    [file] => inexistingfile.txt
+)
+
